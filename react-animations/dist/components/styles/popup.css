@@ -1,0 +1,110 @@
+
+.popupContainer{
+  position: absolute;
+  border-radius: 100%;
+  background-color: #2bb36b;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  justify-content: center;
+  /* default to small size */
+  height: 40px;
+  width: 40px;
+  box-shadow: 2px 2px 5px;
+}
+
+.inlinepopupContainer{
+  border-radius: 100%;
+  background-color: #2bb36b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* default to small size */
+  height: 40px;
+  width: 40px;
+  box-shadow: 2px 2px 5px;
+}
+
+.animated{
+  /* animations */
+  animation: popout 2s ease-in-out forwards;
+}
+
+.popupContainer svg{
+  height: 20px;
+  color: white; 
+  filter: drop-shadow(2px 2px 1px rgb(0 0 0 / 0.4));
+}
+
+.inlinepopupContainer svg{
+  height: 20px;
+  color: white; 
+  filter: drop-shadow(2px 2px 1px rgb(0 0 0 / 0.4));
+}
+
+/* small */
+.small svg{
+  height: 20px;
+}
+.small {
+  height: 40px;
+  width: 40px;
+}
+
+/* medium */
+.medium svg {
+  height: 30px;
+}
+.medium {
+  height: 50px;
+  width: 50px;
+}
+
+/* large */
+.large svg{
+  height: 50px;
+}
+
+.large {
+  height: 80px;
+  width: 80px;
+}
+
+/* colors */
+.success {
+  background-color: #2bb36b;
+}
+
+.danger{
+  background-color: #e84900;
+}
+
+.warning {
+  background-color: #d3d600;
+}
+
+.trash{
+  background-color: #ff4242;
+}
+
+/* animations */
+@keyframes popout {
+  from{
+    transform:scale(0) rotate(-45deg)
+  }
+  20%{
+    transform:scale(1.2) rotate(0)
+    
+  }
+  40%{
+    transform:scale(1) rotate(10deg)
+  }
+  90%{
+    transform:scale(1) rotate(-10deg)
+  }
+  to{
+    transform:scale(0) rotate(-45deg)
+
+  }
+}
+
