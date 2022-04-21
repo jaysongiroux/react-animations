@@ -1,5 +1,5 @@
 {
-  "name": "@jaysongiroux/react-animation-library",
+  "name": "react-animation-library",
   "description": "React Animations",
   "author": "Jason Giroux",
   "keywords": [
@@ -20,9 +20,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jaysongiroux/react-animations.git"
-  },
-  "publishConfig": {
-    "registry": "https://www.npmjs.com/package/react-animation-library"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
