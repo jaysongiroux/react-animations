@@ -8,7 +8,7 @@ Minimalistic elements meant to be stylized and placed within your project
 ## Popup
 position is meant to pop up not be inline with other components or containers
 
-![popup animations](./npm_assets/popup.gif)
+![popup animations](https://github.com/jaysongiroux/react-animations/blob/master/npm_assets/popup.gif?raw=true)
 
 ### Usage
 ```
@@ -28,7 +28,7 @@ position is meant to pop up not be inline with other components or containers
 ## InLinePopup
 position is meant to fit within buttons, cards, and other containers
 
-![popup animations](./npm_assets/inlinepopup.gif)
+![popup animations](https://github.com/jaysongiroux/react-animations/blob/master/npm_assets/inlinepopup.gif?raw=true)
 
 ### Usage
 ```
@@ -46,7 +46,7 @@ position is meant to fit within buttons, cards, and other containers
 
 ## Modal
 Position is absolute and meant to be displayed over everything
-![modal animations](./npm_assets/modal.gif)
+![modal animations](https://github.com/jaysongiroux/react-animations/blob/master/npm_assets/modal.gif?raw=true)
 
 ### Usage
 ```
