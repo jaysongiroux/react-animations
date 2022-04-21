@@ -9,6 +9,12 @@ Object.defineProperty(exports, "InLinePopup", {
     return _InLinePopup.default;
   }
 });
+Object.defineProperty(exports, "Modal", {
+  enumerable: true,
+  get: function get() {
+    return _Modal.default;
+  }
+});
 Object.defineProperty(exports, "Popup", {
   enumerable: true,
   get: function get() {
@@ -19,5 +25,7 @@ Object.defineProperty(exports, "Popup", {
 var _Popup = _interopRequireDefault(require("./components/Popup"));
 
 var _InLinePopup = _interopRequireDefault(require("./components/InLinePopup"));
+
+var _Modal = _interopRequireDefault(require("./components/Modal"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
