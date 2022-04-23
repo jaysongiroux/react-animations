@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { Popup, InLinePopup, Modal} from './lib/indxex';
+import { Popup, InLinePopup, Modal} from './lib';
 
 function App() {
   const [show, setShow] = useState(false)
