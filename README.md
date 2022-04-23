@@ -64,6 +64,11 @@ Position is absolute and meant to be displayed over everything
 <br />
 <br />
 
+### importing
+```
+import { Modal } from 'react-animation-library/dist/'
+```
+
 # Environment Setup
 ## Demo
 ```
