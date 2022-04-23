@@ -15,7 +15,7 @@ export default class Modal extends Component {
       this.callOnClose()
       return (
         <>
-          <div className="modal">
+          <div className="popupModal">
             <div className="screenModalContainer">
               <div className="modalContainer">
                 <InLinePopup 

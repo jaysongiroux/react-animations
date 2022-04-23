@@ -31,7 +31,7 @@ class Modal extends _react.Component {
     if (this.props.show) {
       this.callOnClose();
       return /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
-        className: "modal"
+        className: "popupModal"
       }, /*#__PURE__*/_react.default.createElement("div", {
         className: "screenModalContainer"
       }, /*#__PURE__*/_react.default.createElement("div", {
